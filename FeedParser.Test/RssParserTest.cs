@@ -157,7 +157,7 @@ public class RssParserTest
         var item = feed.Channel.Items[0];
         Assert.Null(item.Title);
         Assert.Null(item.Link);
-        Assert.Equal("\r\n\t\t\t\tIt's been a few days since I added a song to the Grateful Dead channel. Now that there are all these new Radio users, many of whom are tuned into this channel (it's #16 on the hotlist of upstreaming Radio users, there's no way of knowing how many non-upstreaming users are subscribing, have to do something about this..). Anyway, tonight's song is a live version of Weather Report Suite from Dick's Picks Volume 7. It's wistful music. Of course a beautiful song, oft-quoted here on Scripting News. <i>A little change, the wind and rain.</i>\r\n\t\t\t", item.Description);
+        Assert.Equal("It's been a few days since I added a song to the Grateful Dead channel. Now that there are all these new Radio users, many of whom are tuned into this channel (it's #16 on the hotlist of upstreaming Radio users, there's no way of knowing how many non-upstreaming users are subscribing, have to do something about this..). Anyway, tonight's song is a live version of Weather Report Suite from Dick's Picks Volume 7. It's wistful music. Of course a beautiful song, oft-quoted here on Scripting News. <i>A little change, the wind and rain.</i>", item.Description!.Trim());
         Assert.Equal("http://www.scripting.com/mp3s/weatherReportDicksPicsVol7.mp3", item.Enclosure!.Url);
         Assert.Equal(6182912, item.Enclosure!.Length);
         Assert.Equal("audio/mpeg", item.Enclosure!.Type);
