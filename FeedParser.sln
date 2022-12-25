@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeedParser", "FeedParser\FeedParser.csproj", "{CCD4E11A-6AB3-4605-AF12-FA759CCFEB6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeedParser.Test", "FeedParser.Test\FeedParser.Test.csproj", "{9750BCCC-6CE6-4B20-BD59-C2CC3830F008}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCD4E11A-6AB3-4605-AF12-FA759CCFEB6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD4E11A-6AB3-4605-AF12-FA759CCFEB6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD4E11A-6AB3-4605-AF12-FA759CCFEB6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD4E11A-6AB3-4605-AF12-FA759CCFEB6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9750BCCC-6CE6-4B20-BD59-C2CC3830F008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9750BCCC-6CE6-4B20-BD59-C2CC3830F008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9750BCCC-6CE6-4B20-BD59-C2CC3830F008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9750BCCC-6CE6-4B20-BD59-C2CC3830F008}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9CE274D-03AA-45D4-94B9-CF149162E974}
+	EndGlobalSection
+EndGlobal
